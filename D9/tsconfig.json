@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "types": ["node","react", "react-native"],
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src", // Substitua com o diretório do seu código-fonte
+    "node_modules/@types" // Certifique-se de que este diretório está incluído para os tipos instalados
+  ]
+}
